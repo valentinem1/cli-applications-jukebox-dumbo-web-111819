@@ -55,11 +55,11 @@ def run(songs)
    when "exit"
      exit_jukebox
      break
-  when "play"
+   when "play"
      play(songs)
-  when "list"
+   when "list"
     list(songs)
-  when "help"
+   when "help"
     help
   else
     puts "Invalid input, please try again"
