@@ -61,7 +61,7 @@ def run(songs)
     list(songs)
    when "help"
     help
-  else
+   else
     puts "Invalid input, please try again"
       
   
