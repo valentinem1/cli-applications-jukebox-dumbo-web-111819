@@ -61,6 +61,7 @@ def run(songs)
     list
   when "help"
     help
+  
    end
   end
 end
