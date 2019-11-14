@@ -53,13 +53,13 @@ def run
   while user_input.include?("list" || "play" || "help" || "exit") do
   
   if user_input == "list"
-    puts list
+    list
   elsif user_input == "play"
-    puts play
+    play
   else user_input == "help"
-    puts help
+    help
    until user_input == "exit"
-    puts exit_jukebox
+    exit_jukebox
       
       end
     end
