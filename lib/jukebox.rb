@@ -57,6 +57,9 @@ def run(songs)
      break
    when "play"
      play
+  when "list"
+    list
+  when "help"
    end
   end
 end
