@@ -49,7 +49,8 @@ end
 
 def run
  while true do 
-   
+   puts "Please enter a command:"
+   user_input = gets.strip
   end
 end
 
