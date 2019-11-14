@@ -54,6 +54,7 @@ def run
    
    when "play"
      play
+   end
   end
 end
 
