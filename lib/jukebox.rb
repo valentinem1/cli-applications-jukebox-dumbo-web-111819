@@ -50,8 +50,7 @@ end
 def run
   puts "Please enter a command:"
   user_input = get.strip
-  while user_input.include?("list" || "play" || "help" || "exit") do
-  
+ 
   if user_input == "list"
     list
   elsif user_input == "play"
@@ -61,7 +60,6 @@ def run
    until user_input == "exit"
     exit_jukebox
       
-      end
     end
   end
   user_input
