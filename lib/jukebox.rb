@@ -52,7 +52,9 @@ def run(songs)
    puts "Please enter a command:"
    user_input = gets.strip
    case user_input
-   
+   when "exit"
+     exit_jukebox
+     break
    when "play"
      play
    end
