@@ -63,7 +63,7 @@ def run(songs)
     help
   else
     puts "Invalid input, please try again"
-      end
+      
     end
    end
   end
